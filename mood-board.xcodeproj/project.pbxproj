@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF0FF5A92C5EACA000D0C212 /* mood_boardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0FF5A82C5EACA000D0C212 /* mood_boardApp.swift */; };
+		DF0FF5AB2C5EACA000D0C212 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0FF5AA2C5EACA000D0C212 /* ContentView.swift */; };
+		DF0FF5AD2C5EACA000D0C212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF0FF5AC2C5EACA000D0C212 /* Assets.xcassets */; };
+		DF0FF5B02C5EACA000D0C212 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF0FF5AF2C5EACA000D0C212 /* Preview Assets.xcassets */; };
+		DF0FF5BB2C5EACA000D0C212 /* mood_boardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0FF5BA2C5EACA000D0C212 /* mood_boardTests.swift */; };
+		DF0FF5C52C5EACA000D0C212 /* mood_boardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0FF5C42C5EACA000D0C212 /* mood_boardUITests.swift */; };
+		DF0FF5C72C5EACA000D0C212 /* mood_boardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0FF5C62C5EACA000D0C212 /* mood_boardUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF0FF5B72C5EACA000D0C212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF0FF59D2C5EACA000D0C212 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF0FF5A42C5EACA000D0C212;
+			remoteInfo = "mood-board";
+		};
+		DF0FF5C12C5EACA000D0C212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF0FF59D2C5EACA000D0C212 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF0FF5A42C5EACA000D0C212;
+			remoteInfo = "mood-board";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF0FF5A52C5EACA000D0C212 /* mood-board.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mood-board.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF0FF5A82C5EACA000D0C212 /* mood_boardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mood_boardApp.swift; sourceTree = "<group>"; };
+		DF0FF5AA2C5EACA000D0C212 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DF0FF5AC2C5EACA000D0C212 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF0FF5AF2C5EACA000D0C212 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF0FF5B12C5EACA000D0C212 /* mood_board.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = mood_board.entitlements; sourceTree = "<group>"; };
+		DF0FF5B62C5EACA000D0C212 /* mood-boardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mood-boardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF0FF5BA2C5EACA000D0C212 /* mood_boardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mood_boardTests.swift; sourceTree = "<group>"; };
+		DF0FF5C02C5EACA000D0C212 /* mood-boardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mood-boardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF0FF5C42C5EACA000D0C212 /* mood_boardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mood_boardUITests.swift; sourceTree = "<group>"; };
+		DF0FF5C62C5EACA000D0C212 /* mood_boardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mood_boardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF0FF5A22C5EACA000D0C212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF0FF5B32C5EACA000D0C212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF0FF5BD2C5EACA000D0C212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF0FF59C2C5EACA000D0C212 = {
+			isa = PBXGroup;
+			children = (
+				DF0FF5A72C5EACA000D0C212 /* mood-board */,
+				DF0FF5B92C5EACA000D0C212 /* mood-boardTests */,
+				DF0FF5C32C5EACA000D0C212 /* mood-boardUITests */,
+				DF0FF5A62C5EACA000D0C212 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF0FF5A62C5EACA000D0C212 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF0FF5A52C5EACA000D0C212 /* mood-board.app */,
+				DF0FF5B62C5EACA000D0C212 /* mood-boardTests.xctest */,
+				DF0FF5C02C5EACA000D0C212 /* mood-boardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF0FF5A72C5EACA000D0C212 /* mood-board */ = {
+			isa = PBXGroup;
+			children = (
+				DF0FF5A82C5EACA000D0C212 /* mood_boardApp.swift */,
+				DF0FF5AA2C5EACA000D0C212 /* ContentView.swift */,
+				DF0FF5AC2C5EACA000D0C212 /* Assets.xcassets */,
+				DF0FF5B12C5EACA000D0C212 /* mood_board.entitlements */,
+				DF0FF5AE2C5EACA000D0C212 /* Preview Content */,
+			);
+			path = "mood-board";
+			sourceTree = "<group>";
+		};
+		DF0FF5AE2C5EACA000D0C212 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DF0FF5AF2C5EACA000D0C212 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DF0FF5B92C5EACA000D0C212 /* mood-boardTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF0FF5BA2C5EACA000D0C212 /* mood_boardTests.swift */,
+			);
+			path = "mood-boardTests";
+			sourceTree = "<group>";
+		};
+		DF0FF5C32C5EACA000D0C212 /* mood-boardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF0FF5C42C5EACA000D0C212 /* mood_boardUITests.swift */,
+				DF0FF5C62C5EACA000D0C212 /* mood_boardUITestsLaunchTests.swift */,
+			);
+			path = "mood-boardUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF0FF5A42C5EACA000D0C212 /* mood-board */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF0FF5CA2C5EACA000D0C212 /* Build configuration list for PBXNativeTarget "mood-board" */;
+			buildPhases = (
+				DF0FF5A12C5EACA000D0C212 /* Sources */,
+				DF0FF5A22C5EACA000D0C212 /* Frameworks */,
+				DF0FF5A32C5EACA000D0C212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mood-board";
+			productName = "mood-board";
+			productReference = DF0FF5A52C5EACA000D0C212 /* mood-board.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF0FF5B52C5EACA000D0C212 /* mood-boardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF0FF5CD2C5EACA000D0C212 /* Build configuration list for PBXNativeTarget "mood-boardTests" */;
+			buildPhases = (
+				DF0FF5B22C5EACA000D0C212 /* Sources */,
+				DF0FF5B32C5EACA000D0C212 /* Frameworks */,
+				DF0FF5B42C5EACA000D0C212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF0FF5B82C5EACA000D0C212 /* PBXTargetDependency */,
+			);
+			name = "mood-boardTests";
+			productName = "mood-boardTests";
+			productReference = DF0FF5B62C5EACA000D0C212 /* mood-boardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF0FF5BF2C5EACA000D0C212 /* mood-boardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF0FF5D02C5EACA000D0C212 /* Build configuration list for PBXNativeTarget "mood-boardUITests" */;
+			buildPhases = (
+				DF0FF5BC2C5EACA000D0C212 /* Sources */,
+				DF0FF5BD2C5EACA000D0C212 /* Frameworks */,
+				DF0FF5BE2C5EACA000D0C212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF0FF5C22C5EACA000D0C212 /* PBXTargetDependency */,
+			);
+			name = "mood-boardUITests";
+			productName = "mood-boardUITests";
+			productReference = DF0FF5C02C5EACA000D0C212 /* mood-boardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF0FF59D2C5EACA000D0C212 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DF0FF5A42C5EACA000D0C212 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					DF0FF5B52C5EACA000D0C212 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = DF0FF5A42C5EACA000D0C212;
+					};
+					DF0FF5BF2C5EACA000D0C212 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = DF0FF5A42C5EACA000D0C212;
+					};
+				};
+			};
+			buildConfigurationList = DF0FF5A02C5EACA000D0C212 /* Build configuration list for PBXProject "mood-board" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF0FF59C2C5EACA000D0C212;
+			productRefGroup = DF0FF5A62C5EACA000D0C212 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF0FF5A42C5EACA000D0C212 /* mood-board */,
+				DF0FF5B52C5EACA000D0C212 /* mood-boardTests */,
+				DF0FF5BF2C5EACA000D0C212 /* mood-boardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF0FF5A32C5EACA000D0C212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0FF5B02C5EACA000D0C212 /* Preview Assets.xcassets in Resources */,
+				DF0FF5AD2C5EACA000D0C212 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF0FF5B42C5EACA000D0C212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF0FF5BE2C5EACA000D0C212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF0FF5A12C5EACA000D0C212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0FF5AB2C5EACA000D0C212 /* ContentView.swift in Sources */,
+				DF0FF5A92C5EACA000D0C212 /* mood_boardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF0FF5B22C5EACA000D0C212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0FF5BB2C5EACA000D0C212 /* mood_boardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF0FF5BC2C5EACA000D0C212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0FF5C72C5EACA000D0C212 /* mood_boardUITestsLaunchTests.swift in Sources */,
+				DF0FF5C52C5EACA000D0C212 /* mood_boardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF0FF5B82C5EACA000D0C212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF0FF5A42C5EACA000D0C212 /* mood-board */;
+			targetProxy = DF0FF5B72C5EACA000D0C212 /* PBXContainerItemProxy */;
+		};
+		DF0FF5C22C5EACA000D0C212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF0FF5A42C5EACA000D0C212 /* mood-board */;
+			targetProxy = DF0FF5C12C5EACA000D0C212 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DF0FF5C82C5EACA000D0C212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF0FF5C92C5EACA000D0C212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DF0FF5CB2C5EACA000D0C212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "mood-board/mood_board.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"mood-board/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mood-board";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DF0FF5CC2C5EACA000D0C212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "mood-board/mood_board.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"mood-board/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mood-board";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DF0FF5CE2C5EACA000D0C212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mood-boardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mood-board.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mood-board";
+			};
+			name = Debug;
+		};
+		DF0FF5CF2C5EACA000D0C212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mood-boardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mood-board.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mood-board";
+			};
+			name = Release;
+		};
+		DF0FF5D12C5EACA000D0C212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mood-boardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "mood-board";
+			};
+			name = Debug;
+		};
+		DF0FF5D22C5EACA000D0C212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mood-boardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "mood-board";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF0FF5A02C5EACA000D0C212 /* Build configuration list for PBXProject "mood-board" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF0FF5C82C5EACA000D0C212 /* Debug */,
+				DF0FF5C92C5EACA000D0C212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF0FF5CA2C5EACA000D0C212 /* Build configuration list for PBXNativeTarget "mood-board" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF0FF5CB2C5EACA000D0C212 /* Debug */,
+				DF0FF5CC2C5EACA000D0C212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF0FF5CD2C5EACA000D0C212 /* Build configuration list for PBXNativeTarget "mood-boardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF0FF5CE2C5EACA000D0C212 /* Debug */,
+				DF0FF5CF2C5EACA000D0C212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF0FF5D02C5EACA000D0C212 /* Build configuration list for PBXNativeTarget "mood-boardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF0FF5D12C5EACA000D0C212 /* Debug */,
+				DF0FF5D22C5EACA000D0C212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF0FF59D2C5EACA000D0C212 /* Project object */;
+}

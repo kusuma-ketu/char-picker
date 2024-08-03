@@ -1,13 +1,13 @@
 //
-//  beginnerappUITests.swift
-//  beginnerappUITests
+//  mood_boardUITests.swift
+//  mood-boardUITests
 //
-//  Created by Raj Shah on 7/22/24.
+//  Created by Raj Shah on 8/3/24.
 //
 
 import XCTest
 
-final class beginnerappUITests: XCTestCase {
+final class mood_boardUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

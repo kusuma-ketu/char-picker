@@ -1,13 +1,13 @@
 //
-//  beginnerappUITestsLaunchTests.swift
-//  beginnerappUITests
+//  mood_boardUITestsLaunchTests.swift
+//  mood-boardUITests
 //
-//  Created by Raj Shah on 7/22/24.
+//  Created by Raj Shah on 8/3/24.
 //
 
 import XCTest
 
-final class beginnerappUITestsLaunchTests: XCTestCase {
+final class mood_boardUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

@@ -1,13 +1,14 @@
 //
-//  beginnerappTests.swift
-//  beginnerappTests
+//  mood_boardTests.swift
+//  mood-boardTests
 //
-//  Created by Raj Shah on 7/22/24.
+//  Created by Raj Shah on 8/3/24.
 //
 
 import XCTest
+@testable import mood_board
 
-final class beginnerappTests: XCTestCase {
+final class mood_boardTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -27,7 +28,7 @@ final class beginnerappTests: XCTestCase {
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
-        measure {
+        self.measure {
             // Put the code you want to measure the time of here.
         }
     }

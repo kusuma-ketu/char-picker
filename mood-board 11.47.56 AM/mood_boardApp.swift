@@ -1,14 +1,14 @@
 //
-//  beginnerappApp.swift
-//  beginnerapp
+//  mood_boardApp.swift
+//  mood-board
 //
-//  Created by Raj Shah on 7/22/24.
+//  Created by Raj Shah on 8/3/24.
 //
 
 import SwiftUI
 
 @main
-struct beginnerappApp: App {
+struct mood_boardApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
